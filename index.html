@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="flex">
+    <form id="login-form" class="hidden">
+      <label>Hello, what's your name?</label><br>
+      <input id="login-input" maxlength="15">
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+
+    <form id="todo-form" class="hidden">
+      <label>What is your main focus for today?</label><br>
+      <input type="text">
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span><br>
+      <span id="author"></span>
+    </div>
+  </div>
+
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+
+</html>

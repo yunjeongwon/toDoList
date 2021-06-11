@@ -1,0 +1,80 @@
+* {
+  text-align: center;
+  color: whitesmoke;
+}
+body {
+  background-size: 100% 100%;
+}
+div#flex {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+#login-form {
+  font-size: 40px;
+}
+#login-input {
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  background: none;
+  width: 200px;
+  height: 50%;
+  font-size: 40px;
+  transition: width 0.4s ease-in-out;
+}
+#login-input:focus {
+  outline: none;
+  width: 92%;
+}
+h2#clock {
+  font-size: 80px;
+}
+h1#greeting {
+  font-size: 40px;
+  margin-top: 50px;
+}
+#todo-form {
+  font-size: 40px;
+}
+#todo-form input {
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  background: none;
+  width: 200px;
+  height: 50%;
+  font-size: 40px;
+  transition: width 0.4s ease-in-out;
+}
+#todo-form input:focus {
+  outline: none;
+  width: 92%;
+}
+ul#todo-list {
+  list-style: none;
+  font-size: 30px;
+}
+ul#todo-list li {
+  text-align: left;
+}
+ul li input[type="checkbox"]::before {
+  background: whitesmoke;
+  background: none;
+  border: none;
+  outline: none;
+}
+button {
+  border: none;
+  background: none;
+}
+div#quote {
+  margin-top: 100px;
+}
+div#quote span#author {
+  font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}
